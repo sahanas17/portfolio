@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans MT';
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0c0c0c;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #a8a7a8;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.project {
+    margin: 2rem 0;
+}
+
+footer {
+    background-color: #0b0b0b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: bottom;
+    width: 100%;
+    bottom: 0;
+}
+.button_style{
+    background-color: #4a4b4a; 
+    color: white; 
+    border: black; 
+    padding: 15px 32px; 
+    border-radius: 50px;
+    text-align: center; 
+    text-decoration: none; 
+    font-family: 'Gill Sans MT';
+}
+
